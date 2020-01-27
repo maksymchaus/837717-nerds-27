@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>Магазин готовых шаблонов</h1>
+      <a href="#" class="page-header__logo">
+        <img src="img/content/nerds-logo.svg" alt="Логотип Нердс">
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a href="#">Студия</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Клиенты</a>
+          </li>
+          <li class="site-list__item">
+            <a href="catalog.html">Магазин</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Контакты</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">
+              <img src="img/decorative/cart-icon.svg" alt="корзинка">Корзина
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="catalog">
+      <aside class="catalog-aside">
+        <form action="https://echo.htmlacademy.ru" oninput="priceoutput.value=pricecount.value">
+          <fieldset class="catalog-aside__pricefilter">
+            <legend>Стоимость:</legend>
+            <div class="catalog-aside__pricefilter_wrap">
+              <label>
+                <input type="range" min="0" max="20000" step="1000" id="pricecount">
+              </label>
+              <br>
+              <div class="catalog-aside__priceoutput">
+                ОТ<output>0</output>
+                ДО<span>-</span>
+                <output name="priceoutput"></output>
+              </div>
+            </div>
+          </fieldset>
+          <div class="catalog-aside__net_wrap">
+            <fieldset class="catalog-aside__net">
+              <legend>Сетка:</legend>
+              <ul class="net_list-style">
+                <li>
+                  <label>
+                    <input type="radio" name="nettype" value="adaptive" checked>Адаптивная
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="nettype" value="fix">Фиксированная
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="nettype" value="rubber">Резиновая
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <fieldset class="catalog-aside__features">
+            <legend>Особенности:</legend>
+            <ul class="features_list-style">
+              <li>
+                <label>
+                  <input type="checkbox" name="feature" value="slider" checked>Слайдер
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="feature" value="featuresblock">Блок преимуществ
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="feature" value="news">Новости
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="feature" value="gallery">Галерея
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" name="feature" value="cart">Корзина
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="catalog-aside__button" type="submit">Показать</button>
+        </form>
+      </aside>
+
+      <div class="catalog-sorting">
+        <span class="catalog-sorting__head">Сортировка</span>
+        <ul class="catalog-sorting__sorting-bar">
+          <li class="sorting-bar_active">По цене</li>
+          <li>По типу</li>
+          <li>По названию</li>
+          <li>
+            <ul class="sorting-bar__icons">
+              <li>
+                <a href="#">
+                  <img src="img/decorative/icon-up-dir.svg" alt="стрелка вверх">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/decorative/icon-down-dir.svg" alt="стрелка вниз">
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="catalog-nav">
+        <ul class="catalog-list">
+          <li>
+            <a class="catalog-list__item catalog-list__item_active" href="#">1</a>
+          </li>
+          <li>
+            <a class="catalog-list__item" href="#">2</a>
+          </li>
+          <li>
+            <a class="catalog-list__item" href="#">3</a>
+          </li>
+          <li class="catalog-list__next-page">
+            <a class="catalog-list__item" href="#">Cледующая</a>
+          </li>
+        </ul>
+      </nav>
+
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__socialnet">
+        <a href="">
+          <img src="img/decorative/vk-icon.svg" alt="иконка вконтакте">
+        </a>
+        <a href="">
+          <img src="img/decorative/fb-icon.svg" alt="иконка фейсбук">
+        </a>
+        <a href="">
+          <img src="img/decorative/insta-icon.svg" alt="иконка инстаграм">
+        </a>
+      </div>
+      <div class="page-footer__socialnetpromo">
+        <p class="socialnetpromo--text">Давайте дружить, это выгодно!</p>
+        <p class="socialnetpromo--sale">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -5,8 +5,211 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
+    <header class="page-header">
+      <a href="#" class="page-header__logo">
+        <img src="img/content/nerds-logo.svg" alt="Логотип Нердс">
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a href="#">Студия</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Клиенты</a>
+          </li>
+          <li class="site-list__item">
+            <a href="catalog.html">Магазин</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Контакты</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">
+              <img src="img/decorative/cart-icon.svg" alt="корзинка">Корзина
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+    <main class="page-main">
+      <h1 class="visually-hidden">Дизайн-студия "Нердс"</h1>
+      <section class="info">
+        <h2 class="visually-hidden">О студии Нердс</h2>
+        <div class="info__slider">
+          <p class="info__slider--header">
+            Долго, дорого, скрупулезно.
+          </p>
+          <p class="info__slider--slogan">
+            Математически выверенный дизайн  для вашего сайта или мобильного
+          </p>
+          <a href="#" class="info__slider--button">
+            Узнать больше
+          </a>
+          <img src="img/decorative/slide1.jpg" alt="смартфоны">
+        </div>
 
+        <div class="info__slider">
+          <p class="info__slider--header">
+              Любим математику как никто другой
+          </p>
+          <p class="info__slider--slogan">
+            Никакого креатива, только математические формулы
+            для расчета идеальных пропорций.
+          </p>
+          <a href="#" class="info__slider--button">
+            Узнать больше
+          </a>
+          <img src="img/decorative/slide2.jpg" alt="смартфоны">
+        </div>
+
+        <div class="info__slider">
+          <p class="info__slider--header">
+            Только ночь,только хардкор
+          </p>
+          <p class="info__slider--slogan">
+            Работать днем, как все? Мы против этого.
+            Ближе к полуночи работа только начинается.
+          </p>
+          <a href="#" class="info__slider--button">
+            Узнать больше
+          </a>
+          <img src="img/decorative/slide3.jpg" alt="смартфоны">
+        </div>
+      </section>
+
+      <section class="servises">
+        <h2 class="visually-hidden">Услуги дизайна</h2>
+        <ul class="servises__list">
+          <li class="servises__item">
+            <h3 class="servises__title">Веб-сайты</h3>
+            <img src="img/decorative/illustration-1.jpg@1X.jpeg" alt="ноутбук">
+            <p class="servises__text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <a class="servises__button servises__button--red" href="#"></a>
+          </li>
+          <li class="servises__list--item card-list">
+            <h3 class="servises__title">Приложения</h3>
+            <img src="img/decorative/illustration-2.jpg@1X.jpeg" alt="смартфоны">
+            <p class="servises__text">Покорите топ-10 приложений в AppStore и Google Play</p>
+            <a class="servises__button  servises__button--green" href="#"></a>
+          </li>
+          <li class="servises__list-item card-list">
+            <h3 class="servises__title">Презентации</h3>
+            <img src="img/decorative/illustration-3.jpg@1X.jpeg" alt="проектор">
+            <p class="servises__text">Вы даже не подозреваете, насколько вы изумительны!</p>
+            <a class="servises__button  servises__button--yellow" href="#"></a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="presentation">
+        <h2 class="presentation__title"
+        >Мы — маленькая, но гордая дизайн-студия из Краснодара.
+        </h2>
+        <p class="presentation__text">
+          Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+          превыше креатива. Работаем не покладая рук, как роботы.
+        </p>
+        <section class="provide">
+          <h3 class="provide__title">Выполняем заказы на разработку:
+          </h3>
+          <ul class="provide__list">
+            <li class="provide__list--item">
+              <img src="img/decorative/Layer_23.png" alt="тире">
+              Веб-сайтов любой сложности
+            </li>
+            <li class="provide__list--item">
+              <img src="img/decorative/Layer_23.png" alt="тире">
+              Мобильных приложений для iOS и Android
+            </li>
+            <li class="provide__list--item">
+              <img src="img/decorative/Layer_23.png" alt="тире">
+              Слайдшоу и видео для корпоративных презентаций
+            </li>
+          </ul>
+        </section>
+        <div class="statistic">
+          <a href="#" class="statistic__logo">
+            <img src="img/content/nerds-illustration.jpg@1X.jpeg" alt="Логотип Нердс">
+          </a>
+          <p class="statistic__slogan">
+            с 2004 года Любим точность во всем:
+          </p>
+          <table class="statistic__table">
+            <tr>
+              <th>146<sup>%</sup></th>
+              <th>100<sup>%</sup></th>
+              <th>50<sup>%</sup></th>
+            </tr>
+            <tr>
+              <td>Уровень самоотдачи</td>
+              <td>Соблюдение  сроков</td>
+              <td>Минимальная предоплата</td>
+            </tr>
+          </table>
+        </div>
+        <img src="img/decorative/divide@1X.png" alt="разделительная линия">
+        <section class="client">
+          <h3 class="visually-hidden">Наши работы</h3>
+          <ul class="client__list">
+            <li class="client__list--item">
+              <a href="https://htmlacademy.ru">
+                <img src="img/content/logo-1.png@1X.png" alt="логотип html academy">
+              </a>
+            </li>
+            <li class="client__list--item">
+              <a href="#">
+                <img src="img/content/logo-2.png@1X.png" alt="логотип barbershop">
+              </a>
+            </li>
+            <li class="client__list--item">
+              <a href="#">
+                <img src="img/content/logo-3.png@1X.png" alt="логотип pink">
+              </a>
+            </li>
+            <li class="client__list--item">
+              <a href="#">
+                <img src="img/content/logo-4.png@1X.png" alt="логотип mishka">
+              </a>
+            </li>
+          </ul>
+        </section>
+        <img src="img/decorative/divide@1X.png" alt="разделительная линия">
+      </section>
+
+      <section class="contacts">
+        <h3 class="visually-hidden">Наши контакты</h3>
+        <img src="img/content/map.jpg" alt="карта">
+        <img src="img/decorative/map-marker.png@1X.png" alt="маркер на карте">
+        <section class="contacts__conect">
+          <h3>NЁRDS DESIGN STUDIO</h3>
+          <p>
+            191186, Санкт-Петербург,
+            ул. Б. Конюшенная, д. 19/8
+            тел. +7 (812) 275-75-75
+          </p>
+          <a class="contacts__button" href="#">Напишите нам
+          </a>
+        </section>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__socialnet">
+        <a href="">
+          <img src="img/decorative/vk-icon.svg" alt="иконка вконтакте">
+        </a>
+        <a href="">
+          <img src="img/decorative/fb-icon.svg" alt="иконка фейсбук">
+        </a>
+        <a href="">
+          <img src="img/decorative/insta-icon.svg" alt="иконка инстаграм">
+        </a>
+      </div>
+      <div class="page-footer__socialnetpromo">
+        <p class="socialnetpromo--text">Давайте дружить, это выгодно!</p>
+        <p class="socialnetpromo--sale">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </footer>
   </body>
 </html>
