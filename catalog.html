@@ -7,7 +7,7 @@
   <body>
     <header class="page-header">
       <h1>Магазин готовых шаблонов</h1>
-      <a href="#" class="page-header__logo">
+      <a href="index.html" class="page-header__logo">
         <img src="img/content/nerds-logo.svg" alt="Логотип Нердс">
       </a>
       <nav class="main-nav">
@@ -106,28 +106,151 @@
         </form>
       </aside>
 
-      <div class="catalog-sorting">
-        <span class="catalog-sorting__head">Сортировка</span>
-        <ul class="catalog-sorting__sorting-bar">
-          <li class="sorting-bar_active">По цене</li>
-          <li>По типу</li>
-          <li>По названию</li>
-          <li>
-            <ul class="sorting-bar__icons">
-              <li>
-                <a href="#">
-                  <img src="img/decorative/icon-up-dir.svg" alt="стрелка вверх">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="img/decorative/icon-down-dir.svg" alt="стрелка вниз">
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+      <section class="main-catalog">
+        <h2 class="visually-hidden">Каталог работ</h2>
+        <div class="main-catalog__sorting">
+          <span class="sorting__head">Сортировка</span>
+          <ul class="sorting__sorting-bar">
+            <li class="sorting-bar_active">По цене</li>
+            <li>По типу</li>
+            <li>По названию</li>
+            <li>
+              <ul class="sorting-bar__icons">
+                <li>
+                  <a href="#">
+                    <img src="img/decorative/icon-up-dir.svg" alt="стрелка вверх">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="img/decorative/icon-down-dir.svg" alt="стрелка вниз">
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="main-catalog__card-list">
+          <div class="card-list__wrap">
+            <div class="card-list__product-wrap">
+              <img src="img/decorative/browser.svg" alt="браузер">
+              <a href="#">
+                <img src="img/content/img-sedona.jpg.jpg" alt="макет седона">
+              </a>
+            </div>
+            <div class="card-list__loop-action">
+              <a class="card-list__title">Sedona</a>
+              <p class="card-list__text">
+                Информационный сайт
+                для туристов
+              </p>
+              <a class="card-list__button" href="#">
+                9900руб.
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="main-catalog__card-list">
+          <div class="card-list__wrap">
+            <div class="card-list__product-wrap">
+              <img src="img/decorative/browser.svg" alt="браузер">
+              <a href="#">
+                <img src="img/content/img-pink.jpg.jpg" alt="макет пинк">
+              </a>
+            </div>
+            <div class="card-list__loop-action">
+              <a class="card-list__title">Pink App</a>
+              <p class="card-list__text">
+                Продуктовый лендинг
+                приложения для iOS и Android
+              </p>
+              <a class="card-list__button" href="#">
+                9900руб.
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="main-catalog__card-list">
+          <div class="card-list__wrap">
+            <div class="card-list__product-wrap">
+              <img src="img/decorative/browser.svg" alt="браузер">
+              <a href="#">
+                <img src="img/content/img-barbershop.jpg.png" alt="макет барбершоп">
+              </a>
+            </div>
+            <div class="card-list__loop-action">
+              <a class="card-list__title">Barbershop</a>
+              <p class="card-list__text">
+                Сайт салоны красоты.
+                Для мужчин, да.
+              </p>
+              <a class="card-list__button" href="#">
+                9900руб.
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="main-catalog__card-list">
+          <div class="card-list__wrap">
+            <div class="card-list__product-wrap">
+              <img src="img/decorative/browser.svg" alt="браузер">
+              <a href="#">
+                <img src="img/content/img-mishka.jpg.png" alt="макет мишка">
+              </a>
+            </div>
+            <div class="card-list__loop-action">
+              <a class="card-list__title">MISHKA</a>
+              <p class="card-list__text">
+                Интернет-магазин
+                вязаных игрушек
+              </p>
+              <a class="card-list__button" href="#">
+                9900руб.
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="main-catalog__card-list">
+          <div class="card-list__wrap">
+            <div class="card-list__product-wrap">
+              <img src="img/decorative/browser.svg" alt="браузер">
+              <a href="#">
+                <img src="img/content/img-aplus.jpg.png" alt="макет аплюс">
+              </a>
+            </div>
+            <div class="card-list__loop-action">
+              <a class="card-list__title">A Plus</a>
+              <p class="card-list__text">
+                Лендинг курсов повышения квалификации
+              </p>
+              <a class="card-list__button" href="#">
+                9900руб.
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="main-catalog__card-list">
+          <div class="card-list__wrap">
+            <div class="card-list__product-wrap">
+              <img src="img/decorative/browser.svg" alt="браузер">
+              <a href="#">
+                <img src="img/content/img-kvast.jpg.png" alt="макет кваст">
+              </a>
+            </div>
+            <div class="card-list__loop-action">
+              <a class="card-list__title">КВАСТ</a>
+              <p class="card-list__text">
+                Промо-сайт производителя
+                крафтового кваса
+              </p>
+              <a class="card-list__button" href="#">
+                9900руб.
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <nav class="catalog-nav">
         <ul class="catalog-list">

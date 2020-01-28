@@ -150,10 +150,10 @@
         </div>
         <img src="img/decorative/divide@1X.png" alt="разделительная линия">
         <section class="client">
-          <h3 class="visually-hidden">Наши работы</h3>
+          <h3 class="visually-hidden">Наши партнеры</h3>
           <ul class="client__list">
             <li class="client__list--item">
-              <a href="https://htmlacademy.ru">
+              <a href="https://htmlacademy.ru/intensive/htmlcss">
                 <img src="img/content/logo-1.png@1X.png" alt="логотип html academy">
               </a>
             </li>
@@ -211,5 +211,37 @@
         <p class="socialnetpromo--sale">Скидка 10% для друзей из социальных сетей.</p>
       </div>
     </footer>
+
+    <section class="modal-window">
+      <h2 class="modal-window__head" >Напишите нам</h2>
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <div class="modal-window__top">
+          <p>
+            <label>
+              Ваше имя:<br>
+              <input type="text" name="name" placeholder="Имя Фамилия">
+            </label>
+          </p>
+          <p>
+            <label>
+              Ваш e-mail:<br>
+              <input type="email" name="email" placeholder="email@example.com">
+            </label>
+          </p>
+          <p>
+            <label>
+              Текст письма:<br>
+              <textarea name="comment" rows="10" cols="73" placeholder="В свободной форме"></textarea>
+            </label>
+          </p>
+        </div>
+        <div class="modal-window__bottom">
+          <button class="modal-window__button" type="submit">Отправить</button>
+        </div>
+      </form>
+      <button type="button" class="modal-window__close-button">
+        <img src="img/decorative/icon-close.svg" alt="крестик">
+      </button>
+    </section>
   </body>
 </html>
